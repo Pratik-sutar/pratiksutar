@@ -77,7 +77,7 @@ const Projects = () => {
               data-aos="fade-right"
               data-aos-duration="2000"
             >
-              <img src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657343108/dontDelete/warehouse_iihpo1.jpg" />
+              <img className={styles.projectImage} src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657343108/dontDelete/warehouse_iihpo1.jpg" />
               <p className={styles.projectDetailsText}>
                 Worked on the client-side aspect of this project and built with
                 modern technologies like React Js and React-Bootstrap. This
@@ -93,7 +93,7 @@ const Projects = () => {
               data-aos="fade-right"
               data-aos-duration="2000"
             >
-              <img src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657302055/dontDelete/ecom_qrngfv.jpg" />
+              <img className={styles.projectImage} src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657302055/dontDelete/ecom_qrngfv.jpg" />
               <p className={styles.projectDetailsText}>
                 Built an e-commerce website using React Js and Redux for state
                 management.Deployed application on Digital Ocean. This wibsite
@@ -105,7 +105,7 @@ const Projects = () => {
               data-aos="fade-right"
               data-aos-duration="2000"
             >
-              <img src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657341352/dontDelete/samarth_n4oh9z.png" />
+              <img className={styles.projectImage} src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657341352/dontDelete/samarth_n4oh9z.png" />
               <p className={styles.projectDetailsText}>
                 This is the company website of Samarth Meditech. Built using
                 HTML, CSS, bootstrap, and JavaScript
@@ -116,7 +116,7 @@ const Projects = () => {
               data-aos="fade-right"
               data-aos-duration="2000"
             >
-              <img src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657302061/dontDelete/college_alo8zn.png" />
+              <img className={styles.projectImage} src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657302061/dontDelete/college_alo8zn.png" />
               <p className={styles.projectDetailsText}>
                 Developed Pre-University College website by using React Js with
                 React-bootstrap. Deployed the application in the Bigrocker cloud

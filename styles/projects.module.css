@@ -150,7 +150,6 @@
     transform: rotateY(360deg);
   }
 }
-
 .imageBox {
   margin-left: 5%;
   display: flex;
@@ -182,4 +181,8 @@
   .medium {
     font-size: 5vmax !important;
   }
+
+.projectImage{
+  height: 180px;
+}
 }
