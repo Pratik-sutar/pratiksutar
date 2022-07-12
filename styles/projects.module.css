@@ -123,12 +123,6 @@
   margin-left: 5%;
   color: #fff;
 }
-.skillSect {
-  color: #fff;
-  font-size: 1vmax;
-  width: 50%;
-  text-align: center;
-}
 
 .pop:hover {
   animation: popup 2s infinite linear;
@@ -190,5 +184,9 @@
 
 .projectImage{
   height: 180px;
+}
+
+.tags {
+  font-size: 1.5vmax;
 }
 }

@@ -162,29 +162,21 @@ const Contact = () => {
 
         <p
           className={`${styles.tags} ${styles.marg3}`}
-          data-aos="fade-right"
-          data-aos-duration="2500"
         >
           {`<`}/form{`>`}
         </p>
         <p
           className={`${styles.tags} ${styles.marg2}`}
-          data-aos="fade-right"
-          data-aos-duration="2000"
         >
           {`<`}/div{`>`}
         </p>
         <p
           className={`${styles.tags} ${styles.marg1}`}
-          data-aos="fade-right"
-          data-aos-duration="1500"
         >
           {`<`}/body{`>`}
         </p>
         <p
           className={`${styles.tags}`}
-          data-aos="fade-right"
-          data-aos-duration="1000"
         >
           {`<`}/html{`>`}
         </p>

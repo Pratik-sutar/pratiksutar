@@ -229,4 +229,7 @@ to{
 .medium {
   font-size: 5vmax !important;
 }
+.tags {
+  font-size: 1.5vmax;
+}
 }

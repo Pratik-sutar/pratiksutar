@@ -94,8 +94,11 @@ const About = () => {
               programming
             </p>
             <p>
-              Later I got an opportunity to work as a frontend developer in
+              Later I got an opportunity to work as a frontend developer at
               Samarth Meditech
+            </p>
+            <p>
+              I have developed some sclable projects by using React JS framework  
             </p>
             <p></p>
           </div>
