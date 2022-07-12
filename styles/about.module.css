@@ -1,13 +1,13 @@
+.mainDiv{
+  height: 100%;
+}
 .sectionIntro {
   padding-left: 2%;
-  height: 100%;
+  height: 120vh;
   width: 100%;
   overflow: hidden;
   background-color: #0e0e0e;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
+ 
 }
 .tags {
   font-size: 0.9vmax;
@@ -215,3 +215,18 @@ to{
 }
 
  
+@media screen and (max-width: 768px) {
+  .skillSect{
+    font-size:1.5vmax;
+    width: 90%;
+}
+.skillBox{
+  width: 30%;
+}
+.skillBox > svg{
+  font-size:6vmax
+}
+.medium {
+  font-size: 5vmax !important;
+}
+}

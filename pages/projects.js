@@ -5,7 +5,7 @@ const projects = () => {
   return (
     <div>
       <Navbar />
-      <div>
+      <div className={styles.mainDiv}>
         <div id="sect" className={styles.sectionIntro}>
           <p className={`${styles.tags}`}>
             {`<`}html{`>`}
@@ -80,7 +80,7 @@ const projects = () => {
               <img src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657343108/dontDelete/warehouse_iihpo1.jpg" />
               <p className={styles.projectDetailsText}>
                 Worked on the client-side aspect of this project and built with
-                modern technologies like React.js and React-Bootstrap. This
+                modern technologies like React Js and React-Bootstrap. This
                 application manages all the warehouse activities and makes
                 warehouse management an easier task.it keeps track of all
                 purchases and sales and its main feature is to keep track of all

@@ -42,22 +42,16 @@ const contact = () => {
       <div className={styles.qureeyForm}>
         <p
           className={`${styles.tags}`}
-          data-aos="fade-right"
-          data-aos-duration="1000"
         >
           {`<`}html{`>`}
         </p>
         <p
           className={`${styles.tags} ${styles.marg1}`}
-          data-aos="fade-right"
-          data-aos-duration="1500"
         >
           {`<`}body{`>`}
         </p>
         <p
           className={`${styles.tags} ${styles.marg2}`}
-          data-aos="fade-right"
-          data-aos-duration="2000"
         >
           {`<`}div{`>`}
         </p>
@@ -134,7 +128,7 @@ const contact = () => {
             data-aos-duration="3000"
           >
             <div className={styles.inputFeilds}>
-              <label>Name</label>
+              <label>Your Name</label>
               <input
                 type="text"
                 required
@@ -143,7 +137,7 @@ const contact = () => {
               />
             </div>
             <div className={styles.inputFeilds}>
-              <label>Email</label>
+              <label>Your Email</label>
               <input
                 type="email"
                 required
@@ -152,7 +146,7 @@ const contact = () => {
               />
             </div>
             <div className={styles.inputFeilds}>
-              <label>Message</label>
+              <label>Your Message</label>
               <textarea
                 type="text"
                 required

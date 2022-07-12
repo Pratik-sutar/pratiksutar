@@ -1,7 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
 
+.mainDiv{
+  height: 100%;
+}
 .homeContainer {
 margin-top:-2%;
+height: 100%;
+
 }
 
 .marg1 {
@@ -16,13 +21,7 @@ margin-top:-2%;
 .marg4 {
   margin-left: 4%;
 }
-.title {
-  padding-top: 1.5%;
-  padding-left: 1.5%;
-  font-size: 2em;
-  /* transform: rotate(-5deg); */
-  /* text-shadow: 4px 3px #111ed4; */
-}
+
 .navButton {
   display: flex;
   padding: 1%;
@@ -60,7 +59,7 @@ margin-top:-2%;
   font-size: 3.5rem !important;
 }
 .small {
-  font-size: 2rem;
+  font-size: 4vmax;
 }
 .tags {
   font-size: 0.9vmax;
@@ -120,122 +119,8 @@ margin-top:-2%;
   }
 }
 
-.sectionSkill {
-  padding-left: 2%;
-  height: 93.5vh;
-  width: 98%;
-  /* background: #af5f5f; */
-  color: rgb(87, 82, 82);
-  overflow: hidden;
-  /* background-image:url("../images/c.jpg"); */
-  background-color: #0e0e0e;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-}
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-}
-.skillBox {
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 40%;
-  line-height: 3rem;
-  justify-content: space-evenly;
-}
-.skillBar {
-  background-color: #615f5c;
-  height: 3px;
-  width: 80%;
-}
 
-.skillHTML {
-  height: 3px;
-  background-color: #f07808;
-  transition: linear 0.8s;
-  width: 80%;
-}
 
-.skillCSS {
-  height: 3px;
-  background-color: #089ff0;
-  transition: linear 0.8s;
-  width: 80%;
-}
-.skillJS {
-  height: 3px;
-  background-color: #e6ff00;
-  transition: linear 0.8s;
-  width: 60%;
-}
-.skillNode {
-  height: 3px;
-  background-color: #1ce401;
-  transition: linear 0.8s;
-  width: 30%;
-}
-.skillReact {
-  height: 3px;
-  background-color: #00f7ff;
-  transition: linear 0.8s;
-  width: 50%;
-}
-.skillSQL {
-  height: 3px;
-  background-color: #1f08f0;
-  transition: linear 0.8s;
-  width: 40%;
-}
-
-.sectionWork {
-  padding-left: 2%;
-  height: 93.5vh;
-  width: 98%;
-  /* background: #af5f5f; */
-  color: rgb(87, 82, 82);
-  overflow: hidden;
-  /* background-image:url("../images/c.jpg"); */
-  background-color: #0e0e0e;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-}
-.workContainer {
-  display: flex;
-  width: 100%;
-  height: 78%;
-  /* grid-template-columns: repeat(4, 2fr); */
-  gap: 5px;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-.workImages {
-  height: 100%;
-  width: 90%;
-  /* background-color:rgb(209, 148, 35) */
-}
-.img-responsive {
-  width: 100%;
-  height: 95%;
-}
-
-.sectionContact {
-  padding-left: 2%;
-  height: 93.5vh;
-  width: 98%;
-  /* background: #af5f5f; */
-  color: rgb(87, 82, 82);
-  overflow: hidden;
-  /* background-image:url("../images/c.jpg"); */
-  background-color: #0e0e0e;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-}
 .introText {
   font-size: 7vmax;
   color: #fff;
@@ -286,49 +171,15 @@ margin-top:-2%;
   }
 }
 
-.headingText {
-  font-size: 4rem;
-  color: #fff;
-}
 
-.headingText:hover {
-  color: #e20fbf;
-  animation: ani 0.7s ease-in-out 0.5;
-}
-
-@keyframes ani {
-  0% {
-    transform: scale(1.2, 0.5);
+@media screen and (max-width: 900px) {
+  .navButton {
+    font-size: 2vmax;
+  } 
+  .introText {
+    font-size: 6vmax;
   }
-  16% {
-    transform: scale(1.2, 0.5);
-  }
-  25% {
-    transform: scale(1.2, 0.5);
-  }
-  32% {
-    transform: scale(0.8, 1.1);
-  }
-  48% {
-    transform: scale(0.95, 1);
-  }
-  64% {
-    transform: scale(0.8, 1.2);
-  }
-  80% {
-    transform: scale(1.15, 1);
-  }
-  87% {
-    transform: scale(1.15, 1);
-  }
-  90% {
-    /* This will add the shaking effect one time almost at the end   */
-    transform: scale(0.8, 1);
-  }
-  95% {
-    transform: scale(1.05, 1);
-  }
-  100% {
-    transform: scale(1, 1);
+  .medium {
+    font-size: 5vmax !important;
   }
 }

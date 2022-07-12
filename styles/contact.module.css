@@ -1,3 +1,6 @@
+.mainDiv{
+  height: 100%;
+}
 .qureeyForm {
   padding-left: 2%;
   height: 100vh;
@@ -154,7 +157,7 @@
   flex-wrap: wrap;
 }
 .contactForm {
-  width: 30%;
+  width: 50%;
 }
 .inputFeilds {
   display: flex;
@@ -189,9 +192,22 @@
 
 @media screen and (max-width: 600px) {
   .contactForm {
-    width: 80%;
+    width: 90%;
   } 
   .message {
     height: 15vmax;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .contactForm {
+    width: 70%;
+  } 
+  .message {
+    height: 15vmax;
+  }
+  .medium {
+    font-size: 5vmax !important;
   }
 }

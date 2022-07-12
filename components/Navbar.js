@@ -12,18 +12,38 @@ const Navbar = () => {
   }, []);
   return (
     <div>
-      <div className={styles.menu} >
+      <div className={styles.menu}>
         <div className={styles.navButton}>
-          <div className={styles.navlink}>
+          <div
+            className={styles.navlink}
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <Link href="/">HOME</Link>
           </div>
-          <div className={styles.navlink}>
+          <div
+            className={styles.navlink}
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <Link href="/about">ABOUT</Link>
           </div>
-          <div className={styles.navlink}>
+          <div
+            className={styles.navlink}
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <Link href="/projects">PROJECTS</Link>
           </div>
-          <div className={styles.navlink}>
+          <div
+            className={styles.navlink}
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <Link href="/contact">CONTACT</Link>
           </div>
         </div>

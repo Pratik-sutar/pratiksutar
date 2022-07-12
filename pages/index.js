@@ -91,7 +91,7 @@ const Home = () => {
             {`<`}h3{`>`}
           </p>
 
-          <div data-aos="fade-right"  data-aos-duration="1500"
+          <div data-aos="fade-up"  data-aos-duration="2000"
           >
           <h1
             className={`${styles.intro} ${styles.textWhite} ${styles.small}`}

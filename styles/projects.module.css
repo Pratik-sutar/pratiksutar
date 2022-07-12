@@ -1,13 +1,10 @@
+.mainDiv{
+  height: 100%;
+}
 .sectionIntro {
   padding-left: 2%;
   height: 100%;
   width: 100%;
-  overflow: hidden;
-  background-color: #0e0e0e;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
 }
 .tags {
   font-size: 0.9vmax;
@@ -162,7 +159,7 @@
 }
 .projectDetails {
   display: flex;
-  width: 30%;
+  width: 45%;
   color: #fff;
   padding: 5px;
   flex-direction: column;
@@ -173,4 +170,16 @@
 }
 .projectDetailsText {
   padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .projectDetails {
+    width: 90%;
+  } 
+  .message {
+    height: 15vmax;
+  }
+  .medium {
+    font-size: 5vmax !important;
+  }
 }
