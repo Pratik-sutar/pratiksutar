@@ -171,6 +171,12 @@
   padding: 10px;
 }
 
+@media screen and (max-width: 900px) {
+
+.projectImage{
+  height: 280px;
+}
+}
 @media screen and (max-width: 600px) {
   .projectDetails {
     width: 90%;
