@@ -96,13 +96,14 @@ const Projects = () => {
               <img
                 className={styles.projectImage}
                 src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657619086/dontDelete/warehouse_ooj1k5.jpg"
+                alt="Warehouse Management Web Application"
               />
               <h3>Warehouse Management Web Application</h3>
               <p className={styles.projectDetailsText}>
                 Worked on the client-side aspect of this project and built with
                 modern technologies like React Js and React-Bootstrap. This
                 application manages all the warehouse activities and makes
-                warehouse management an easier task.it keeps track of all
+                warehouse management an easier task.It keeps track of all
                 purchases and sales and its main feature is to keep track of all
                 orders with all details at every step of the order journey.
               </p>
@@ -116,6 +117,7 @@ const Projects = () => {
               <img
                 className={styles.projectImage}
                 src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657619335/dontDelete/ecom_uk7ukk.jpg"
+                alt="E-Commerce Web Application"
               />
               <h3>E-Commerce Web Application</h3>
               <p className={styles.projectDetailsText}>
@@ -132,12 +134,18 @@ const Projects = () => {
               <img
                 className={styles.projectImage}
                 src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657619086/dontDelete/clinic_zlgcgi.jpg"
+                alt="Clinic Management Web Application"
               />
               <h3>Clinic Management Web Application</h3>
               <p className={styles.projectDetailsText}>
-                Built an e-commerce website using React Js and Redux for state
-                management.Deployed application on Digital Ocean. This wibsite
-                is used to sell electronic products.
+                This software helps in automation of Health care by providing
+                features, which helps in smooth running of clinics and
+                hospitals.This software provides features Like,facility to go
+                paperless with digital documentation,eﬀective management of staﬀ
+                records and attendance management and case history management
+                and doctor to doctor communication and also pharmacy
+                integration.This software is built using latest technologies
+                like React.js and Node.js Express.js and mariadb as a database
               </p>
             </div>
             <div
@@ -148,12 +156,21 @@ const Projects = () => {
               <img
                 className={styles.projectImage}
                 src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657619086/dontDelete/homeyopathi_w1wvfn.jpg"
+                alt="Homeyopati Clinic management Web Application"
               />
               <h3>Homeyopati Clinic management Web Application</h3>
               <p className={styles.projectDetailsText}>
-                Built an e-commerce website using React Js and Redux for state
-                management.Deployed application on Digital Ocean. This wibsite
-                is used to sell electronic products.
+                This application is built with modern frameworks/libraries like
+                React.js and tailwind css and backend is built with Nodes.js
+                with Express,js as a framework and Mariadb as a database.This
+                software helps in smooth running of Homeopathy organization.
+                This software provides features Like,facility to go paperless
+                with digital documentation and also helps in maintaining details
+                of enquired patients and also registered patients and also helps
+                in following up with patients. This application helps
+                organization in smooth running of its branches by effectively
+                managing the data with respect to each branch and thus helping
+                admin in efficient management of branches as well.
               </p>
             </div>
             <div
@@ -164,6 +181,7 @@ const Projects = () => {
               <img
                 className={styles.projectImage}
                 src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657619086/dontDelete/samarth_ik7etb.jpg"
+                alt="Samarth Meditech"
               />
               <p className={styles.projectDetailsText}>
                 This is the company website of Samarth Meditech. Built using
@@ -177,7 +195,8 @@ const Projects = () => {
             >
               <img
                 className={styles.projectImage}
-                src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657619086/dontDelete/college_dhx9ep.jpg"
+                src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657631734/dontDelete/college_uzeyps.jpg"
+                alt="Pre-University College website"
               />
               <p className={styles.projectDetailsText}>
                 Developed Pre-University College website by using React Js with
