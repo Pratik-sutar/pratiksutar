@@ -11,7 +11,7 @@ import {FaAws} from "react-icons/fa"
 import AOS from "aos"; 
 
 
-const about = () => {
+const About = () => {
   useEffect(() => {
     AOS.init({
       duration: 2000,
@@ -201,4 +201,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

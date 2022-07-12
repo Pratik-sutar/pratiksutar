@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/projects.module.css";
 import Navbar from "../components/Navbar";
-const projects = () => {
+const Projects = () => {
   return (
     <div>
       <Navbar />
@@ -143,4 +143,4 @@ const projects = () => {
   );
 };
 
-export default projects;
+export default Projects;

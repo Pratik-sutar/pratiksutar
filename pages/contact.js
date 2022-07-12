@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import styles from "../styles/contact.module.css";
 import AOS from "aos";
 
-const contact = () => {
+const Contact = () => {
   const [result, showResult] = useState(false);
 
   function sendEmail(e) {
@@ -193,4 +193,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
