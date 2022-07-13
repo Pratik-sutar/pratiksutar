@@ -8,6 +8,7 @@ import {FaReact} from "react-icons/fa"
 import {SiTailwindcss} from "react-icons/si"
 import {FaBootstrap} from "react-icons/fa"
 import {FaAws} from "react-icons/fa"
+import {FaDigitalOcean} from "react-icons/fa"
 import AOS from "aos"; 
 
 
@@ -184,6 +185,10 @@ const About = () => {
             <div className={`${styles.skillBox} ${styles.orange}`}  data-aos="zoom-in" data-aos-duration="2500">
                 <FaAws className={styles.pop}/>
                 <p>AWS </p>
+            </div>
+             <div className={`${styles.skillBox} ${styles.blue}`}  data-aos="zoom-in" data-aos-duration="2500">
+                <FaDigitalOcean className={styles.rotate}/>
+                <p>Digital Ocean </p>
             </div>
           </div>
           <p className={`${styles.tags} ${styles.marg3}`}>
