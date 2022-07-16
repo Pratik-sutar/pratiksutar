@@ -111,11 +111,7 @@ const Contact = () => {
         <p className={`${styles.tags} ${styles.marg3}`}>
           {`<`}/h1{`>`}
         </p>
-        <p
-          className={`${styles.tags} ${styles.marg3}`}
-          data-aos="fade-right"
-          data-aos-duration="2500"
-        >
+        <p className={`${styles.tags} ${styles.marg3}`}>
           {`<`}form{`>`}
         </p>
 
