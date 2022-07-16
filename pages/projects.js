@@ -95,7 +95,7 @@ const Projects = () => {
             >
               <img
                 className={styles.projectImage}
-                src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657619086/dontDelete/warehouse_ooj1k5.jpg"
+                src="https://res.cloudinary.com/rjtechnologiesstores/image/upload/v1657957054/dontDelete/warehouse_nannqu.jpg"
                 alt="Warehouse Management Web Application"
               />
               <h3>Warehouse Management Web Application</h3>
