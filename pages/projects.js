@@ -85,7 +85,7 @@ const Projects = () => {
           </p>
 
           <p className={`${styles.tags} ${styles.marg3}`}>
-            {`<`}img{`>`}
+            {`<`}div{`>`}
           </p>
           <div className={styles.imageBox}>
             <div
@@ -207,7 +207,7 @@ const Projects = () => {
             </div>
           </div>
           <p className={`${styles.tags} ${styles.marg3}`}>
-            {`<`}/img{`>`}
+            {`<`}/div{`>`}
           </p>
           <p className={`${styles.tags} ${styles.marg2}`}>
             {`<`}/div{`>`}
