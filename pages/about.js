@@ -155,7 +155,7 @@ const About = () => {
             {`<`}/h3{`>`}
           </p>
           <p className={`${styles.tags} ${styles.marg3}`}>
-            {`<`}svg{`>`}
+            {`<`}div{`>`}
           </p>
           <div className={`${styles.skillSect} ${styles.flex}`}>
             <div className={`${styles.skillBox} ${styles.orange}`}  data-aos="zoom-in" data-aos-duration="2500">
@@ -192,7 +192,7 @@ const About = () => {
             </div>
           </div>
           <p className={`${styles.tags} ${styles.marg3}`}>
-            {`<`}/svg{`>`}
+            {`<`}/div{`>`}
           </p>
           <p className={`${styles.tags} ${styles.marg2}`}>
             {`<`}/div{`>`}
