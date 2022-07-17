@@ -100,12 +100,10 @@ const Projects = () => {
               />
               <h3>Warehouse Management Web Application</h3>
               <p className={styles.projectDetailsText}>
-                Worked on the client-side aspect of this project and built with
-                modern technologies like React Js and React-Bootstrap. This
-                application manages all the warehouse activities and makes
-                warehouse management an easier task.It keeps track of all
-                purchases and sales and its main feature is to keep track of all
-                orders with all details at every step of the order journey.
+                This is an web application used to keep a track of all the warehouse activities like keeping track of
+                goods, update stock of products.
+                Worked on the frontend part of the application.The UI of the application is built using React Js.
+                The backend part is being done in Node Js and the database used is MSQL
               </p>
             </div>
 
@@ -121,9 +119,12 @@ const Projects = () => {
               />
               <h3>E-Commerce Web Application</h3>
               <p className={styles.projectDetailsText}>
-                Built an e-commerce website using React Js and Redux for state
-                management.Deployed application on Digital Ocean. This wibsite
-                is used to sell electronic products.
+                This is a e-commerce platform that delivers accessories required for phone and computer at your doorstep.
+                Worked on frontend part of the project using React JS for building UI. Implemented Redux for state management.
+                The backend part is done in NodeJS with the   Worked on frontend part of the project using React JS for building UI. Implemented Redux for
+124
+database used is Mongo DB.
+                Deployed on Digital Ocean hosting platform
               </p>
             </div>
             <div
@@ -138,14 +139,11 @@ const Projects = () => {
               />
               <h3>Clinic Management Web Application</h3>
               <p className={styles.projectDetailsText}>
-                This software helps in automation of Health care by providing
-                features, which helps in smooth running of clinics and
-                hospitals.This software provides features Like,facility to go
-                paperless with digital documentation,eﬀective management of staﬀ
-                records and attendance management and case history management
-                and doctor to doctor communication and also pharmacy
-                integration.This software is built using latest technologies
-                like React.js and Node.js Express.js and mariadb as a database
+             This is a software designed for clinics which provides features Like,facility to go paperless with
+             digital documentation,eﬀective management of staﬀ records and attendance management,
+             patient case history management and doctor to doctor communication and also pharmacy integration.
+             This software is built using latest technologies like React Js on frontend, Node Js on backend and
+             mariaDB as a database
               </p>
             </div>
             <div
@@ -160,17 +158,12 @@ const Projects = () => {
               />
               <h3>Homeyopati Clinic management Web Application</h3>
               <p className={styles.projectDetailsText}>
-                This application is built with modern frameworks/libraries like
-                React.js and tailwind css and backend is built with Nodes.js
-                with Express,js as a framework and Mariadb as a database.This
-                software helps in smooth running of Homeopathy organization.
-                This software provides features Like,facility to go paperless
-                with digital documentation and also helps in maintaining details
-                of enquired patients and also registered patients and also helps
-                in following up with patients. This application helps
-                organization in smooth running of its branches by effectively
-                managing the data with respect to each branch and thus helping
-                admin in efficient management of branches as well.
+                This software helps in smooth running of Homeopathy organization.This software provides
+                features Like,facility to go paperless with digital documentation,eﬀective management of staﬀ
+                records and attendance management.This software helps in maintaining details of enquired
+                patients and also registered patients and also helps in following up with patients.
+                This application frontend is built with React Js and Tailwind CSS and backend is built with Nodes Js
+                and MariaDB as a database.Deployed application on AWS
               </p>
             </div>
             <div
@@ -184,8 +177,8 @@ const Projects = () => {
                 alt="Samarth Meditech"
               />
               <p className={styles.projectDetailsText}>
-                This is the company website of Samarth Meditech. Built using
-                HTML, CSS, bootstrap, and JavaScript
+                This is a website built for displaying company overview, all information about products and
+                services offered by the company.Used HTML,CSS,Javascript technology to build.
               </p>
             </div>
             <div
@@ -199,10 +192,8 @@ const Projects = () => {
                 alt="Pre-University College website"
               />
               <p className={styles.projectDetailsText}>
-                Developed Pre-University College website by using React Js with
-                React-bootstrap. Deployed the application in the Bigrocker cloud
-                platform. The website shows an overview and all using
-                information about the college.
+                Developed Pre-University College website which shows the college details, courses offered, events
+                organised in college, staff , facilities provided in college. This website is built using React Js and React-bootstrap
               </p>
             </div>
           </div>
