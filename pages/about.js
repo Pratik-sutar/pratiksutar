@@ -99,7 +99,7 @@ const About = () => {
               Samarth Meditech
             </p>
             <p>
-              I have developed some sclable projects by using React JS framework  
+              I have developed some sclable projects by using HTML, CSS, JAVASCRIPT, REACT.JS 
             </p>
             <p></p>
           </div>
